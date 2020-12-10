@@ -1,0 +1,3 @@
+Flask>=1.1.2
+graphene>=2.1.8
+Flask-GraphQL>=2.0.1
