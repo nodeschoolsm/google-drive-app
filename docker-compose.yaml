@@ -1,0 +1,11 @@
+version: '3.6'
+services:
+  flaskbobby:
+    container_name: flaskbobby
+    build: ./backend
+    restart: always
+    volumes: 
+      - ./images:/code/images
+      - ./papelera:/code/papelera
+    ports:
+    - "4000:4000"
