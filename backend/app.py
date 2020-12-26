@@ -1,8 +1,11 @@
 from flask import Flask
 from queries import queries_graphql
 from endpoints import endpoints_flask
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
+
 
 
 if __name__ == "__main__":
